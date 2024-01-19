@@ -1,1 +1,33 @@
-
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Redundant Registration</title>
+  </head>
+  <body>
+    <fieldset name="hello" onsubmit="return false">
+      <legend>Welcome to the Junk Website</legend>
+      <button id="new-user">Register</button>
+      <button id="existing-user">Exist</button>
+    </fieldset>
+    <fieldset name="welcome-aboard" onsubmit="return false">
+      <legend>New User</legend>
+      <label for="username">UserName:</label>
+      <input name="username" id="username" />
+      <label for="passcode">Passcode:</label>
+      <input name="passcode" id="passcode" />
+      <label for="town">City:</label>
+      <input name="town" id="town" />
+      <label for="state">State:</label>
+      <input name="state" id="state" />
+    </fieldset>
+    <fieldset name="welcome-back" onsubmit="return false">
+      <legend>Existing User</legend>
+      <label for="username">UserName:</label>
+      <input name="username" id="username" />
+      <label for="passcode">PassCode:</label>
+      <input name="passcode" id="passcode" />
+    </fieldset>
+  </body>
+</html>
