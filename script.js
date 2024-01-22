@@ -26,5 +26,13 @@ function storeAway(){
   localStorage.setItem("town", town);
   localStorage.setItem("state", state);
 }
+function isThisYou(){
+  if(username == username.localStorage && password == password.localStorage){
+    break;
+  else if(username != username.localStorage || password != password.localStorage){
+    alert("Invalid username or password. Please try again.");
+  }
+  }
+}
 
 
