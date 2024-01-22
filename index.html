@@ -9,8 +9,8 @@
     <form name="mainform" onsubmit="return false">
     <fieldset name="hello">
       <legend>Welcome to the Junk Website</legend>
-      <button id="new-user">Register</button>
-      <button id="existing-user">Exist</button>
+      <button id="new-user" onclick="welcomeNewUser()">Register</button>
+      <button id="existing-user" onclick="welcomePastUser()">Exist</button>
     </fieldset>
     <fieldset name="welcome-aboard">
       <legend>New User</legend>
@@ -22,6 +22,7 @@
       <input name="town" id="town" />
       <label for="state">State:</label>
       <input name="state" id="state" />
+      <button id="welcome-to-my-world" onclick="storeAway()">Sign Up</button>
     </fieldset>
     <fieldset name="welcome-back">
       <legend>Existing User</legend>
@@ -29,6 +30,7 @@
       <input name="username" id="username" />
       <label for="passcode">PassCode:</label>
       <input name="passcode" id="passcode" />
+      <button id="login" onclick="isThisYou()">Log In</button>
     </fieldset>
     </form>
   </body>
